@@ -68,6 +68,7 @@ var options = {
 
 
 function draw() {
+  Engine.update(engine);
   background(255,255,255); 
   ground.display();
   stand.display();
